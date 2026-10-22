@@ -1,5 +1,9 @@
 # Tabimarket — three directions
 
+CHOSEN: Make them want to go — a traveller arrives with a week in Japan and no plan for it,
+and what makes them book a whole day with a stranger is seeing Fuji above the cloud line at
+five in the morning. The marketplace's job here is not to list, it is to convince.
+
 The owner gave no name. The only name anywhere in the brief is the owner's own email
 address, `hello@tabimarket.jp`, so the site is called **Tabimarket**. The working title in
 the plan ("Marketplace for travel in Japan") is not put on the site.
