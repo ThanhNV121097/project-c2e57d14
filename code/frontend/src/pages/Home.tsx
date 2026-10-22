@@ -50,7 +50,9 @@ function Hero() {
             <T k="hero.headline" as="span" className="block" />
             <T k="hero.headlineAccent" as="span" className="block text-accent" />
           </h1>
-          <T k="hero.sub" as="p" className="rise mt-[var(--space-6)] max-w-[44ch] text-[17px] leading-relaxed text-ink-soft" style={{ animationDelay: "160ms" }} />
+          <div className="rise mt-[var(--space-6)] max-w-[44ch]" style={{ animationDelay: "160ms" }}>
+            <T k="hero.sub" as="p" className="text-[17px] leading-relaxed text-ink-soft" />
+          </div>
           <div className="rise mt-[var(--space-8)] flex flex-wrap items-center gap-[var(--space-4)]" style={{ animationDelay: "220ms" }}>
             <Link to={cta.href} data-testid="hero-tours" className="inline-flex items-center gap-[var(--space-2)] whitespace-nowrap bg-accent px-[var(--space-6)] py-[var(--space-3)] text-[14px] text-accent-ink transition-opacity duration-[var(--duration-fast)] hover:opacity-90">
               <T k="hero.cta.label" />
