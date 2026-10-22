@@ -47,7 +47,7 @@
   },
   "pages": {
     "tours": {
-      "title": "Tours across Japan — Tabimarket",
+      "title": "Tours across Japan",
       "description": "Every approved full-day tour on Tabimarket, by place, with its price and the dates its operator set.",
       "label": "Catalogue",
       "heading": "Every approved tour",
@@ -58,7 +58,7 @@
       "empty": "No tour here yet for that place."
     },
     "tour": {
-      "title": "Tour — Tabimarket",
+      "title": "Tour",
       "description": "A full-day tour on Tabimarket: what the day is, what is included, the dates the operator set, and the price per traveller.",
       "perPerson": "per traveller",
       "included": "What is included",
@@ -71,14 +71,14 @@
       "missing": "That tour is not here. See every tour."
     },
     "gallery": {
-      "title": "Photographs — Tabimarket",
+      "title": "Photographs",
       "description": "Photographs from the tours listed on Tabimarket, as their operators uploaded them.",
       "label": "Photographs",
       "heading": "The days, as they look",
       "sub": "Every picture here came from the operator who runs that day."
     },
     "book": {
-      "title": "Choose a date — Tabimarket",
+      "title": "Choose a date",
       "description": "Pick a date the operator set and say how many are going.",
       "label": "Booking",
       "heading": "Choose a date",
@@ -92,7 +92,7 @@
       "signin": "Sign in to book this day."
     },
     "checkout": {
-      "title": "Pay — Tabimarket",
+      "title": "Pay",
       "description": "Pay for your tour by card. Visa and Mastercard, through Stripe, with Apple Pay where the device offers it.",
       "label": "Payment",
       "heading": "Pay for the day",
@@ -109,7 +109,7 @@
       "note": "Nothing is charged here — this is the design."
     },
     "booking": {
-      "title": "Booking confirmed — Tabimarket",
+      "title": "Booking confirmed",
       "description": "Your tour is booked and paid.",
       "label": "Confirmed",
       "heading": "You are booked",
@@ -119,7 +119,7 @@
       "missing": "No booking under that reference."
     },
     "account": {
-      "title": "Your account — Tabimarket",
+      "title": "Your account",
       "description": "Your bookings, your details and the way out.",
       "label": "Account",
       "heading": "Your bookings",
@@ -132,7 +132,7 @@
       "paid": "Paid"
     },
     "signin": {
-      "title": "Sign in — Tabimarket",
+      "title": "Sign in",
       "description": "Sign in to book a tour, see your bookings, or manage your listings.",
       "label": "Sign in",
       "heading": "Sign in",
@@ -145,7 +145,7 @@
       "demo": "This is the design: any address signs you in."
     },
     "register": {
-      "title": "Create an account — Tabimarket",
+      "title": "Create an account",
       "description": "Create a Tabimarket account to book tours or to list them.",
       "label": "New account",
       "heading": "Create an account",
@@ -161,7 +161,7 @@
       "signin": "Sign in"
     },
     "supplier": {
-      "title": "Operator dashboard — Tabimarket",
+      "title": "Operator dashboard",
       "description": "Your listings, your bookings and what is waiting for review.",
       "label": "Operator",
       "heading": "Your listings",
@@ -177,7 +177,7 @@
       "signin": "Sign in to see your listings."
     },
     "supplierNew": {
-      "title": "List a tour — Tabimarket",
+      "title": "List a tour",
       "description": "Write the day, set the price and the dates, upload at least four photographs.",
       "label": "New listing",
       "heading": "List a tour",
@@ -198,7 +198,7 @@
       "blocked": "Add the remaining photographs to submit."
     },
     "admin": {
-      "title": "Back office — Tabimarket",
+      "title": "Back office",
       "description": "Review listings, and see every booking, operator and traveller.",
       "label": "Back office",
       "heading": "Waiting for review",
@@ -219,7 +219,7 @@
       "signin": "Sign in to open the back office."
     },
     "contact": {
-      "title": "Contact — Tabimarket",
+      "title": "Contact",
       "description": "Write to Tabimarket about a booking, a listing or anything else.",
       "label": "Contact",
       "heading": "Write to us",
