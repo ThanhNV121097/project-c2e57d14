@@ -24,6 +24,8 @@ export default function Admin() {
   const { items: operators } = useCollection<OperatorRow>("operators", { pageSize: 12 });
   const { items: metrics } = useCollection<MetricRow>("metrics", { pageSize: 8 });
   const { items: months } = useCollection<MonthRow>("months", { pageSize: 12 });
+  const { items: terms } = useCollection<TermRow>("terms", { pageSize: 8 });
+  const waiting = useContent("pages.admin.termsEmpty");
   const [open, setOpen] = useState<string | null>(null);
   const [result, setResult] = useState<"approved" | "rejected" | null>(null);
   const cols = useContent<{ tour: string; operator: string; traveller: string; date: string; people: string; total: string; status: string; placed: string }>("pages.admin.columns");
