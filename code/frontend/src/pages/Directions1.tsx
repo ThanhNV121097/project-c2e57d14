@@ -72,18 +72,45 @@ export default function Directions1() {
           </p>
         </div>
 
-        <div className="d1__wall">
-          {wall.map((t, i) => (
-            <article className="d1__tile fade" key={t.id} style={{ animationDelay: `${120 + i * 80}ms` }}>
-              <img src={t.photo} alt={`${t.name} — ${t.place}`} style={{ objectPosition: t.focal }} />
-              <span className="d1__place">{t.place}</span>
-              <div className="d1__meta">
-                <span className="d1__name">{t.name}</span>
-                <span className="d1__hours">{t.hours} · {t.operator}</span>
-                <span className="d1__price">{yen(t.price)}</span>
-              </div>
-            </article>
-          ))}
+        <div className="d1__pane">
+          <div className="d1__wallhead rise" style={{ animationDelay: "120ms" }}>
+            <span>Sat 18 Apr · four full-day tours with places left</span>
+            <span className="d1__seeall">
+              All approved tours
+              <ArrowRight size={14} strokeWidth={1.6} />
+            </span>
+          </div>
+
+          <div className="d1__wall">
+            {wall.map((t, i) => (
+              <article className="d1__tile fade" key={t.id} style={{ animationDelay: `${120 + i * 80}ms` }}>
+                <img src={t.photo} alt={`${t.name} — ${t.place}`} style={{ objectPosition: t.focal }} />
+                <div className="d1__meta">
+                  <span className="d1__place">{t.place}</span>
+                  <span className="d1__name">{t.name}</span>
+                  <span className="d1__foot">
+                    <span className="d1__hours">{t.hours}</span>
+                    <span className="d1__price">{yen(t.price)}</span>
+                  </span>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          {also && (
+            <div className="d1__also">
+              <span className="d1__alsolab">Also that day</span>
+              <span className="d1__alsoplace">{also.place}</span>
+              <span className="d1__alsoname">{also.name}</span>
+              <span className="d1__alsoop">{also.operator} · {also.hours}</span>
+              <span className="d1__alsoprice">{yen(also.price)}</span>
+            </div>
+          )}
+
+          <p className="d1__paid">
+            <CreditCard size={15} strokeWidth={1.5} />
+            Paid by card — Visa and Mastercard, and Apple Pay on the devices that offer it.
+          </p>
         </div>
       </div>
 
