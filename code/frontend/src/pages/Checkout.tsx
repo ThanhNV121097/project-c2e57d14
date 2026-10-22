@@ -25,14 +25,7 @@ export default function Checkout() {
   const applepay = useContent("pages.checkout.applepay");
   const or = useContent("pages.checkout.or");
 
-  const stored = readDraft();
-  const draft: Draft | null = stored && stored.tour === id
-    ? stored
-    : item && demo
-      ? { tour: item.id, date: item.dates[0], people: 2, total: item.price * 2 }
-      : item
-        ? { tour: item.id, date: item.dates[0], people: 1, total: item.price }
-        : null;
+  const draft = draftFor(id, item, demo);
 
   if (!item || !draft) {
     return (
