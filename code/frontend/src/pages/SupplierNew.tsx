@@ -87,7 +87,7 @@ export default function SupplierNew() {
           <ul className="mt-[var(--space-4)] grid grid-cols-2 gap-[var(--space-3)]">
             {[0, 1, 2, 3].map((i) => (
               <li key={i} className="aspect-[4/3] w-full overflow-hidden bg-surface">
-                <Picture src={photos[i] ?? ""} alt={`Photograph ${i + 1}`} caption={`Photograph ${i + 1}`} className="h-full w-full object-cover" />
+                <Picture src={photos[i] ?? ""} alt={`Photograph ${i + 1}`} caption={`Photograph ${i + 1}`} fit="contain" className="h-full w-full object-contain" />
               </li>
             ))}
           </ul>
