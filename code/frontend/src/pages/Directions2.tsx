@@ -21,7 +21,7 @@ export default function Directions2() {
 
       <div className="d2__bar">
         <span className="d2__mark">
-          <span style={{ color: "#E0A33C" }}><Mark /></span>
+          <span className="d2__markglyph"><Mark /></span>
           Tabimarket
         </span>
         <nav className="d2__barlinks">
