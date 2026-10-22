@@ -34,7 +34,7 @@ export default function TourCard({ tour, eager = false }: { tour: TourRow; eager
         <div>
           <h3 className="font-display text-[20px] text-ink transition-colors duration-[var(--duration-fast)] group-hover:text-accent">{tour.name}</h3>
           <p className="mt-[var(--space-1)] text-[13px] text-ink-soft">
-            {tour.duration} \u00b7 from {tour.starts}
+            {tour.duration} · from {tour.starts}
           </p>
         </div>
         <p className="tabular shrink-0 text-right text-[15px] text-ink">
