@@ -6,6 +6,7 @@ import { usePageMeta } from "../seo";
 import { useSession } from "../lib/session";
 import { useDemo } from "../lib/demo";
 import Icon from "../components/Icon";
+import { Picture } from "../picture";
 import { formatDate, formatPrice } from "../lib/format";
 import { clearDraft, readDraft, type Draft, type TourRow } from "../lib/tours";
 
