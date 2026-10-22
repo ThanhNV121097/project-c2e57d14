@@ -15,9 +15,9 @@ export default function Directions1() {
   return (
     <div className="d1">
       <div className="d1__bar">
-        <span className="d1__mark" style={{ color: "#D2362A" }}>
-          <Mark />
-          <span style={{ color: "#141417" }}>Tabimarket</span>
+        <span className="d1__mark">
+          <span className="d1__markglyph"><Mark /></span>
+          Tabimarket
         </span>
         <nav className="d1__barlinks">
           <b>Tours</b>
