@@ -1,0 +1,6 @@
+[
+  { "id": "pricing-basis", "question": "Is a tour price per traveller or a flat price for the booking?", "answer": "", "_source": "assumed" },
+  { "id": "capacity", "question": "How many travellers can one tour date hold?", "answer": "", "_source": "assumed" },
+  { "id": "cancellation", "question": "Until when can a traveller cancel or move a date, and what is refunded?", "answer": "", "_source": "assumed" },
+  { "id": "payouts", "question": "When is an operator paid their share of a booking?", "answer": "", "_source": "assumed" }
+]
