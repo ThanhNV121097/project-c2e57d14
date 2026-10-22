@@ -177,6 +177,28 @@ export default function Admin() {
           </ul>
         </section>
       </div>
+
+      <section className="mt-[var(--space-12)]">
+        <T k="pages.admin.terms" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
+        <T k="pages.admin.termsSub" as="p" className="mt-[var(--space-3)] max-w-[56ch] text-[14px] leading-relaxed text-ink-soft" />
+        <ul className="mt-[var(--space-6)] flex flex-col">
+          {terms.map((t) => (
+            <li key={t.id} data-record={`terms:${t.id}`} className="flex flex-col gap-[var(--space-2)] border-b border-line py-[var(--space-4)] sm:flex-row sm:items-baseline sm:justify-between sm:gap-[var(--space-8)]">
+              <span className="text-[15px] text-ink">{t.question}</span>
+              <span className="shrink-0 text-[13px] sm:text-right">
+                {t.answer ? (
+                  <span className="text-ink-soft">{t.answer}</span>
+                ) : (
+                  <span className="inline-flex items-center gap-[var(--space-2)] text-accent">
+                    <Icon name="alert" size={14} />
+                    {waiting}
+                  </span>
+                )}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }
