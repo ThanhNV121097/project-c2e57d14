@@ -94,7 +94,7 @@ function Places() {
         <Grid max={3} phone={2} className="mt-[var(--space-8)]">
           {items.map((p) => (
             <Link key={p.id} to={`/tours?place=${p.id}`} data-record={`places:${p.id}`} className="group block">
-              <div className="aspect-[4/3] w-full overflow-hidden bg-surface">
+              <div className="aspect-[3/4] w-full overflow-hidden bg-surface">
                 <Picture src={p.image} alt={p.name} caption={p.name} className="h-full w-full object-cover transition-transform duration-[var(--duration-base)] ease-[var(--ease-out)] group-hover:scale-[1.02]" />
               </div>
               <div className="mt-[var(--space-3)] border-t border-line pt-[var(--space-2)]">
