@@ -14,7 +14,6 @@ import { Picture } from "../picture";
 export default function SupplierNew() {
   usePageMeta("pages.supplierNew.title", "pages.supplierNew.description");
   const session = useSession();
-  const demo = useDemo();
   const [photos, setPhotos] = useState<string[]>(["/images/ginzan-onsen.jpg", "/images/hokkaido-snow.jpg", "/images/hokkaido-furano.jpg", "/images/tall-fuji.jpg"]);
   const [sent, setSent] = useState(false);
   const add = useContent("pages.supplierNew.photoAdd");
