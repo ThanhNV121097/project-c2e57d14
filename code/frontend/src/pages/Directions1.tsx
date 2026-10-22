@@ -78,10 +78,8 @@ export default function Directions1() {
               <img src={t.photo} alt={`${t.name} — ${t.place}`} style={{ objectPosition: t.focal }} />
               <span className="d1__place">{t.place}</span>
               <div className="d1__meta">
-                <span>
-                  <span className="d1__name">{t.name}</span>
-                  <span className="d1__hours">{t.hours} · {t.operator}</span>
-                </span>
+                <span className="d1__name">{t.name}</span>
+                <span className="d1__hours">{t.hours} · {t.operator}</span>
                 <span className="d1__price">{yen(t.price)}</span>
               </div>
             </article>
