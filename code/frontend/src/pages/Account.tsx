@@ -12,7 +12,7 @@ import type { BookingRow, TourRow } from "../lib/tours";
 /** Who is signed in, what they have booked, and the way out. */
 export default function Account() {
   usePageMeta("pages.account.title", "pages.account.description");
-  const session = useSession();
+  const session = useViewer();
   const { items: bookings } = useCollection<BookingRow>("bookings", { pageSize: 12 });
   const { items: tours } = useCollection<TourRow>("tours", { pageSize: 24 });
   const signedInAs = useContent("pages.account.signedInAs");
