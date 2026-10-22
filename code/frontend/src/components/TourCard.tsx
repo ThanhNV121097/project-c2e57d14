@@ -21,7 +21,7 @@ export default function TourCard({ tour, eager = false }: { tour: TourRow; eager
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-surface">
         <Picture
           src={tour.image}
-          alt={`${tour.name} \u2014 ${tour.place}`}
+          alt={`${tour.name} — ${tour.place}`}
           caption={tour.name}
           loading={eager ? "eager" : "lazy"}
           className="h-full w-full object-cover transition-transform duration-[var(--duration-base)] ease-[var(--ease-out)] group-hover:scale-[1.02]"
