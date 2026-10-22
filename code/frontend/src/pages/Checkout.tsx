@@ -118,7 +118,11 @@ export default function Checkout() {
 
         <aside className="lg:w-2/5" data-record={`tours:${item.id}`}>
           <T k="pages.checkout.summary" as="p" className="border-t border-line pt-[var(--space-4)] text-[11px] uppercase tracking-[0.14em] text-ink-soft" />
+          <div className="mt-[var(--space-4)] aspect-[4/3] w-full overflow-hidden bg-surface">
+            <Picture src={item.image} alt={item.name} caption={item.name} loading="eager" className="h-full w-full object-cover" />
+          </div>
           <h2 className="mt-[var(--space-3)] text-[length:var(--size-h2)] text-ink">{item.name}</h2>
+          <p className="mt-[var(--space-2)] text-[14px] leading-relaxed text-ink-soft">{item.summary}</p>
           <dl className="tabular mt-[var(--space-6)] flex flex-col gap-[var(--space-3)] text-[14px]">
             <div className="flex justify-between border-b border-line pb-[var(--space-2)]"><dt className="text-ink-soft"><T k="pages.book.date" /></dt><dd className="text-right text-ink">{formatDate(draft.date, "medium")}</dd></div>
             <div className="flex justify-between border-b border-line pb-[var(--space-2)]"><dt className="text-ink-soft"><T k="pages.book.people" /></dt><dd className="text-right text-ink">{draft.people}</dd></div>
