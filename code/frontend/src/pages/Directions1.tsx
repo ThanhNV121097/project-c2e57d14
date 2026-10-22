@@ -12,6 +12,7 @@ const Mark = () => (
  *  the catalogue running off the right edge. */
 export default function Directions1() {
   const wall = tours.filter((t) => t.photo).slice(0, 4);
+  const also = tours.find((t) => !t.photo);
   return (
     <div className="d1">
       <div className="d1__bar">
