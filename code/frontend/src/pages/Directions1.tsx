@@ -1,4 +1,4 @@
-import { CalendarDays, MapPin, Users, ArrowRight, ShieldCheck } from "lucide-react";
+import { CalendarDays, MapPin, Users, ArrowRight, ShieldCheck, CreditCard } from "lucide-react";
 import { tours, yen } from "./directions-data";
 import "./directions.css";
 
