@@ -9,7 +9,7 @@ import Bars from "../components/Bars";
 import Figures from "../components/Figures";
 import { Picture } from "../picture";
 import { formatDate, formatPrice } from "../lib/format";
-import type { BookingRow, MetricRow, MonthRow, OperatorRow, TourRow } from "../lib/tours";
+import type { BookingRow, MetricRow, MonthRow, OperatorRow, TermRow, TourRow } from "../lib/tours";
 
 /**
  * The back office. The review queue is a hairline-ruled register with status
