@@ -235,7 +235,13 @@
   display: grid;
   grid-template-columns: 1fr 300px;
 }
-.d3 .dtag { color: #93a0b5; background: #152138; border-top: 1px solid rgba(237, 239, 243, 0.14); border-right: 1px solid rgba(237, 239, 243, 0.14); }
+.d3 .dtag {
+  left: auto;
+  right: 0;
+  padding: 7px 16px;
+  color: #edeff3;
+  background: rgba(12, 22, 38, 0.72);
+}
 .d3__band { position: relative; overflow: hidden; }
 .d3__band img {
   width: 100%;
