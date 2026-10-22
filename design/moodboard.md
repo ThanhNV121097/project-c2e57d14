@@ -52,20 +52,11 @@ grows 2%, a row's rule goes amber. Native scrolling, nothing pinned or scrubbed,
 
 ## COMMITMENTS
 
-1. The home page opens on one photograph filling the window, with a dark gradient coming in
-   from the left, the headline and one supporting line on that left edge, and three tall place
-   tiles sitting low on the right over the picture.
-2. The hero headline's last line is set in amber and crosses off the gradient onto the
-   photograph.
-3. Every heading on the site — home, catalogue, tour, checkout, account, admin — is Shippori
-   Mincho at weight 400. No page falls back to a sans heading.
-4. Every section on every page is introduced by a full-width hairline rule with an 11px
-   small-caps label sitting in the left margin beside the heading.
-5. Every price on the site is tabular figures, right-aligned in any column of prices, and the
-   tour page's price is the second-largest thing on its first screen.
-6. A tour's photographs are laid out as one picture running edge to edge of the viewport and a
-   2/3 – 1/3 pair beneath it — never four equal thumbnails.
-7. The admin approval queue is a hairline-ruled register, prices right-aligned, with status as
-   a single coloured dot rather than a pill.
-8. One mode only: `#0C0D0C` ground everywhere, amber `#E0A33C` on actions and status and
-   nothing else.
+- The home page opens on one photograph filling the window, with a dark gradient coming in from the left, the headline and one supporting line on that left edge, and three tall place tiles sitting low on the right over the picture.
+- The hero headline's last line is set in amber and crosses off the gradient onto the photograph.
+- Every heading on the site — home, catalogue, tour, checkout, account, admin — is Shippori Mincho at weight 400. No page falls back to a sans heading.
+- Every section on every page is introduced by a full-width hairline rule with an 11px small-caps label sitting in the left margin beside the heading.
+- Every price on the site is tabular figures, right-aligned in any column of prices, and the tour page's price is the second-largest thing on its first screen.
+- A tour's photographs are laid out as one picture running edge to edge of the viewport and a 2/3 – 1/3 pair beneath it — never four equal thumbnails.
+- The admin approval queue is a hairline-ruled register, prices right-aligned, with status as a single coloured dot rather than a pill.
+- One mode only: #0C0D0C ground everywhere, amber #E0A33C on actions and status and nothing else.
