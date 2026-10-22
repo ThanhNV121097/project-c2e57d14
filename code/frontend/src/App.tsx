@@ -23,6 +23,19 @@ import PhotoCredits from "./components/PhotoCredits";
  * <PhotoCredits/>: the stock photos' credits, which their licences ask for.
  */
 export default function App() {
+  return (
+    <Routes>
+      {/* The direction pages are not part of the site: they render alone, with
+          none of the shell around them, and are deleted once the owner picks. */}
+      <Route path="/directions-1" element={<Directions1 />} />
+      <Route path="/directions-2" element={<Directions2 />} />
+      <Route path="/directions-3" element={<Directions3 />} />
+      <Route path="*" element={<Shell />} />
+    </Routes>
+  );
+}
+
+function Shell() {
   const links = useList<{ label: string; href: string }>("nav.links");
   const name = useContent("site.name");
   const [open, setOpen] = useState(false);
