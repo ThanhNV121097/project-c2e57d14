@@ -99,46 +99,57 @@
 .d1__note { margin-top: 18px; font-size: 12px; line-height: 1.6; color: #5b5b62; display: flex; gap: 8px; align-items: flex-start; }
 .d1__note svg { color: #d2362a; flex: none; margin-top: 1px; }
 
-.d1__wall {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2px;
-  align-content: start;
-  padding: 36px 0 0 36px;
-  width: calc(100% + 36px);
-}
-.d1__tile { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: #f2f2ef; }
-.d1__tile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 500ms cubic-bezier(0.2, 0.7, 0.2, 1); }
-.d1__tile:hover img { transform: scale(1.03); }
-.d1__tile::after {
-  content: "";
-  position: absolute;
-  inset: 40% 0 0;
-  background: linear-gradient(to bottom, rgba(10, 10, 12, 0) 0%, rgba(10, 10, 12, 0.76) 100%);
-}
-.d1__place {
-  position: absolute;
-  top: 14px;
-  left: 16px;
-  z-index: 2;
-  font-size: 9px;
-  letter-spacing: 0.18em;
+.d1__pane { display: flex; flex-direction: column; min-width: 0; padding: 26px 0 0 36px; }
+.d1__wallhead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 0 32px 10px 0;
+  border-bottom: 1px solid rgba(20, 20, 23, 0.12);
+  font-size: 10px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #fff;
-  background: rgba(10, 10, 12, 0.42);
-  padding: 4px 8px;
+  color: #5b5b62;
 }
-.d1__meta {
-  position: absolute;
-  z-index: 2;
-  left: 16px;
-  right: 56px;
-  bottom: 13px;
-  color: #fff;
+.d1__seeall { display: inline-flex; align-items: center; gap: 7px; color: #141417; }
+.d1__panecols { display: grid; grid-template-columns: 1fr 216px; gap: 28px; padding: 18px 32px 0 0; min-height: 0; }
+
+.d1__wall { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 18px; align-content: start; min-width: 0; }
+.d1__tile { min-width: 0; }
+.d1__shot { display: block; aspect-ratio: 3 / 2; overflow: hidden; background: #141417; }
+.d1__shot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: transform 500ms cubic-bezier(0.2, 0.7, 0.2, 1);
 }
-.d1__name { display: block; font-size: 17px; letter-spacing: -0.015em; line-height: 1.2; }
-.d1__hours { display: block; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255, 255, 255, 0.7); margin-top: 6px; }
-.d1__price { display: block; font-size: 26px; letter-spacing: -0.025em; line-height: 1; margin-top: 10px; white-space: nowrap; }
+.d1__tile:hover .d1__shot img { transform: scale(1.03); }
+.d1__meta { display: block; padding-top: 9px; }
+.d1__place { display: block; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: #d2362a; }
+.d1__name { display: block; font-size: 16px; letter-spacing: -0.015em; line-height: 1.2; margin-top: 5px; color: #141417; }
+.d1__foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 7px;
+  padding-top: 7px;
+  border-top: 1px solid rgba(20, 20, 23, 0.12);
+}
+.d1__hours { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: #5b5b62; }
+.d1__price { font-size: 22px; letter-spacing: -0.025em; line-height: 1; white-space: nowrap; color: #141417; text-align: right; }
+
+.d1__rail { border-left: 1px solid rgba(20, 20, 23, 0.12); padding-left: 20px; display: flex; flex-direction: column; gap: 22px; }
+.d1__also { display: flex; flex-direction: column; }
+.d1__alsolab { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: #5b5b62; padding-bottom: 10px; border-bottom: 1px solid rgba(20, 20, 23, 0.12); }
+.d1__alsoplace { margin-top: 14px; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: #d2362a; }
+.d1__alsoname { margin-top: 6px; font-size: 16px; line-height: 1.2; letter-spacing: -0.015em; }
+.d1__alsoop { margin-top: 6px; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #5b5b62; }
+.d1__alsoprice { margin-top: 10px; font-size: 22px; letter-spacing: -0.025em; }
+.d1__paid { font-size: 11px; line-height: 1.6; color: #5b5b62; display: flex; gap: 8px; align-items: flex-start; }
+.d1__paid svg { color: #d2362a; flex: none; margin-top: 1px; }
 
 /* ------------------------------------------------------------------ 2 --- */
 
