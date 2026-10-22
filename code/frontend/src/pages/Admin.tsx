@@ -18,7 +18,7 @@ import type { BookingRow, MetricRow, MonthRow, OperatorRow, TourRow } from "../l
  */
 export default function Admin() {
   usePageMeta("pages.admin.title", "pages.admin.description");
-  const session = useSession();
+  const session = useViewer();
   const { items: tours } = useCollection<TourRow>("tours", { pageSize: 24 });
   const { items: bookings } = useCollection<BookingRow>("bookings", { pageSize: 12 });
   const { items: operators } = useCollection<OperatorRow>("operators", { pageSize: 12 });
