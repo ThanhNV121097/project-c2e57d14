@@ -56,6 +56,13 @@ export interface MonthRow {
   bookings: number;
 }
 
+/** A rule the platform runs on that the owner has not set yet. */
+export interface TermRow {
+  id: string;
+  question: string;
+  answer: string;
+}
+
 /** What a booking in progress is, kept in the browser between the two pages. */
 export interface Draft {
   tour: string;
