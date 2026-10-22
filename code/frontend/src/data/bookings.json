@@ -1,0 +1,8 @@
+[
+  { "id": "bk-2411", "tour": "fuji-five-lakes", "traveller": "Ana Ruiz", "date": "2026-04-18", "people": 2, "total": 37000, "status": "paid", "placed": "2026-02-03", "_source": "assumed" },
+  { "id": "bk-2409", "tour": "kyoto-arashiyama", "traveller": "Ana Ruiz", "date": "2026-04-19", "people": 2, "total": 24000, "status": "paid", "placed": "2026-02-03", "_source": "assumed" },
+  { "id": "bk-2402", "tour": "tokyo-shitamachi", "traveller": "Peter Lund", "date": "2026-04-14", "people": 4, "total": 39200, "status": "paid", "placed": "2026-01-28", "_source": "assumed" },
+  { "id": "bk-2397", "tour": "osaka-kuidaore", "traveller": "Mei Chan", "date": "2026-04-20", "people": 3, "total": 34500, "status": "paid", "placed": "2026-01-26", "_source": "assumed" },
+  { "id": "bk-2388", "tour": "hokkaido-furano", "traveller": "Sofia Marchetti", "date": "2026-07-11", "people": 2, "total": 48000, "status": "paid", "placed": "2026-01-19", "_source": "assumed" },
+  { "id": "bk-2380", "tour": "nara-deer-day", "traveller": "Tom Byrne", "date": "2026-04-22", "people": 2, "total": 21000, "status": "refunded", "placed": "2026-01-14", "_source": "assumed" }
+]

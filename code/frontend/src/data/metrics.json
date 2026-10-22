@@ -1,0 +1,6 @@
+[
+  { "id": "bookings-30", "label": "Bookings, last 30 days", "value": 46, "unit": "", "change": 12, "_source": "assumed" },
+  { "id": "revenue-30", "label": "Gross bookings, last 30 days", "value": 742500, "unit": "JPY", "change": 8, "_source": "assumed" },
+  { "id": "pending-review", "label": "Listings waiting for review", "value": 1, "unit": "", "change": 0, "_source": "assumed" },
+  { "id": "live-tours", "label": "Approved tours live", "value": 6, "unit": "", "change": 2, "_source": "assumed" }
+]
