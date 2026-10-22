@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { T, useContent } from "../editable";
 import { usePageMeta } from "../seo";
-import { useSession } from "../lib/session";
+import { useViewer } from "../lib/viewer";
 import Icon from "../components/Icon";
 import { Picture } from "../picture";
 
