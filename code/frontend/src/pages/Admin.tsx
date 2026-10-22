@@ -43,7 +43,6 @@ export default function Admin() {
   }
 
   const queue = tours.filter((t) => t.status === "pending");
-  const reviewing = tours.find((t) => t.id === open);
   const travellers = Array.from(new Set(bookings.map((b) => b.traveller)));
   const field = "w-full border border-field bg-ground px-[var(--space-4)] py-[var(--space-3)] text-[15px] text-ink";
 
