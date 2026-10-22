@@ -12,7 +12,7 @@ import type { MetricRow, MonthRow, TourRow } from "../lib/tours";
 /** The operator's dashboard: their listings, their figures, their month. */
 export default function Supplier() {
   usePageMeta("pages.supplier.title", "pages.supplier.description");
-  const session = useSession();
+  const session = useViewer();
   const { items: tours } = useCollection<TourRow>("tours", { pageSize: 24 });
   const { items: metrics } = useCollection<MetricRow>("metrics", { pageSize: 8 });
   const { items: months } = useCollection<MonthRow>("months", { pageSize: 12 });
