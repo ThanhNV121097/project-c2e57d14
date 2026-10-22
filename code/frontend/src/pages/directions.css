@@ -38,7 +38,15 @@
   display: flex;
   flex-direction: column;
 }
-.d1 .dtag { color: #5b5b62; border-top: 1px solid rgba(20, 20, 23, 0.12); border-right: 1px solid rgba(20, 20, 23, 0.12); background: #fff; }
+.d1 .dtag {
+  left: auto;
+  right: 0;
+  padding: 7px 16px;
+  color: #5b5b62;
+  border-top: 1px solid rgba(20, 20, 23, 0.12);
+  border-left: 1px solid rgba(20, 20, 23, 0.12);
+  background: #fff;
+}
 .d1__bar {
   height: 56px;
   flex: none;
