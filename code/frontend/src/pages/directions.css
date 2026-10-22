@@ -49,6 +49,9 @@
   border-bottom: 1px solid rgba(20, 20, 23, 0.12);
 }
 .d1__mark { display: flex; align-items: center; gap: 10px; font-size: 15px; letter-spacing: -0.02em; }
+.d1__markglyph { color: #d2362a; display: flex; }
+.d2__markglyph { color: #e0a33c; display: flex; }
+.d3__markglyph { color: #6fd3a6; display: flex; }
 .d1__barlinks { display: flex; align-items: center; gap: 28px; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #5b5b62; }
 .d1__barlinks b { color: #141417; font-weight: 500; }
 
