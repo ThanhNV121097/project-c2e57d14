@@ -10,6 +10,19 @@ import { formatDate, formatPrice } from "../lib/format";
 import { clearDraft, readDraft, type Draft, type TourRow } from "../lib/tours";
 
 /**
+ * The booking being paid for: what the visitor chose, or — when the page is
+ * being drawn, walked or shown in the Studio — a representative one, so the
+ * totals and the card are never reviewed empty.
+ */
+function draftFor(id: string | undefined, tour: TourRow | undefined, demo: boolean): Draft | null {
+  const stored = readDraft();
+  if (stored && stored.tour === id) return stored;
+  if (!tour) return null;
+  const people = demo ? 2 : 1;
+  return { tour: tour.id, date: tour.dates[0], people, total: tour.price * people };
+}
+
+/**
  * Payment: Visa and Mastercard through Stripe, with Apple Pay where the
  * device offers it. Nothing is charged — this is the design.
  */
