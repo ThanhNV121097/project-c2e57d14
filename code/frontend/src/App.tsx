@@ -135,7 +135,7 @@ function Footer() {
             <T k="footer.tagline" as="p" className="mt-[var(--space-4)] text-[14px] leading-relaxed text-ink-soft" />
             {email && (
               <a href={`mailto:${email}`} className="mt-[var(--space-4)] inline-flex items-center gap-[var(--space-2)] text-[14px] text-ink hover:text-accent">
-                <Icon name="mail" size={16} />
+                <Icon name="mail" size={22} />
                 {email}
               </a>
             )}
