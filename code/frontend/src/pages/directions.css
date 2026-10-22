@@ -124,17 +124,13 @@
   position: absolute;
   z-index: 2;
   left: 16px;
-  right: 16px;
+  right: 56px;
   bottom: 13px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 16px;
   color: #fff;
 }
-.d1__name { font-size: 17px; letter-spacing: -0.015em; line-height: 1.2; }
-.d1__hours { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255, 255, 255, 0.72); margin-top: 5px; }
-.d1__price { font-size: 22px; letter-spacing: -0.02em; text-align: right; white-space: nowrap; }
+.d1__name { display: block; font-size: 17px; letter-spacing: -0.015em; line-height: 1.2; }
+.d1__hours { display: block; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255, 255, 255, 0.7); margin-top: 6px; }
+.d1__price { display: block; font-size: 26px; letter-spacing: -0.025em; line-height: 1; margin-top: 10px; white-space: nowrap; }
 
 /* ------------------------------------------------------------------ 2 --- */
 
