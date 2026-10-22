@@ -1,64 +1,259 @@
 {
   "site": {
-    "name": "Your business",
+    "name": "Tabimarket",
     "logo": "",
-    "description": "One sentence on what the business is, for search results and shared links.",
-    "locale": "vi-VN"
+    "description": "Full-day tours across Japan, from operators we read before they list. Choose a date, choose how many are going, pay by card.",
+    "locale": "en-GB"
   },
   "nav": {
     "links": [
-      {
-        "label": "Home",
-        "href": "/"
-      }
+      { "label": "Tours", "href": "/tours" },
+      { "label": "Gallery", "href": "/gallery" },
+      { "label": "List your tours", "href": "/supplier" },
+      { "label": "Contact", "href": "/contact" }
     ],
-    "cta": {
-      "label": "Get in touch",
-      "href": "#contact"
-    },
-    "theme": {
-      "toLight": "Switch to light mode",
-      "toDark": "Switch to dark mode"
-    },
-    "menu": {
-      "open": "Open menu",
-      "close": "Close menu"
-    }
+    "cta": { "label": "Sign in", "href": "/signin" },
+    "account": "Your account",
+    "theme": { "toLight": "Switch to light mode", "toDark": "Switch to dark mode" },
+    "menu": { "open": "Open menu", "close": "Close menu" }
   },
   "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": {
-      "label": "Get in touch",
-      "href": "#contact"
+    "eyebrow": "Mount Fuji · Asagiri Tours · full day",
+    "headline": "The lakes are still",
+    "headlineAccent": "at half past four.",
+    "sub": "Full-day tours across Japan, from operators we read before they list. Pick a date, say how many are going, pay by card.",
+    "cta": { "label": "See every tour", "href": "/tours" },
+    "second": { "label": "List your tours", "href": "/supplier" },
+    "tiles": "Where people are going"
+  },
+  "home": {
+    "places": { "label": "Places", "heading": "Six places, one day each", "sub": "Every tour here runs a full day, on the dates its operator set." },
+    "tours": { "label": "Live now", "heading": "Approved and bookable", "sub": "Each one has been read by a person here before it went up.", "all": "See every tour" },
+    "gate": {
+      "label": "How a listing gets here",
+      "heading": "Nothing goes up unread",
+      "steps": [
+        { "title": "An operator writes the day", "body": "Price, the dates they can run it, what is included, and at least four photographs. Fewer than four and the form will not submit." },
+        { "title": "We read it", "body": "Someone here opens the listing, checks the photographs are of that day, and approves it or sends it back with the reason." },
+        { "title": "You book it", "body": "Only approved tours are shown. You pick a date the operator set, say how many are going, and pay by card." }
+      ]
+    },
+    "supplier": {
+      "label": "For operators",
+      "heading": "Sell your days here",
+      "body": "Write the tour once, set your own dates and price, upload your photographs. We read it, then it is live and bookable.",
+      "cta": "Open the operator dashboard"
+    }
+  },
+  "pages": {
+    "tours": {
+      "title": "Tours across Japan — Tabimarket",
+      "description": "Every approved full-day tour on Tabimarket, by place, with its price and the dates its operator set.",
+      "label": "Catalogue",
+      "heading": "Every approved tour",
+      "sub": "Full days only. Prices are per traveller.",
+      "filterAll": "All places",
+      "count": "tours",
+      "more": "Show more",
+      "empty": "No tour here yet for that place."
+    },
+    "tour": {
+      "title": "Tour — Tabimarket",
+      "description": "A full-day tour on Tabimarket: what the day is, what is included, the dates the operator set, and the price per traveller.",
+      "perPerson": "per traveller",
+      "included": "What is included",
+      "dates": "Dates the operator set",
+      "meeting": "Meeting point",
+      "operator": "Run by",
+      "book": "Choose a date",
+      "photos": "Photographs",
+      "approved": "Read and approved by Tabimarket",
+      "missing": "That tour is not here. See every tour."
+    },
+    "gallery": {
+      "title": "Photographs — Tabimarket",
+      "description": "Photographs from the tours listed on Tabimarket, as their operators uploaded them.",
+      "label": "Photographs",
+      "heading": "The days, as they look",
+      "sub": "Every picture here came from the operator who runs that day."
+    },
+    "book": {
+      "title": "Choose a date — Tabimarket",
+      "description": "Pick a date the operator set and say how many are going.",
+      "label": "Booking",
+      "heading": "Choose a date",
+      "date": "Date",
+      "people": "Travellers",
+      "slot": "Full day",
+      "perPerson": "per traveller",
+      "total": "Total",
+      "continue": "Continue to payment",
+      "note": "Capacity per date and the cancellation terms are waiting on the owner.",
+      "signin": "Sign in to book this day."
+    },
+    "checkout": {
+      "title": "Pay — Tabimarket",
+      "description": "Pay for your tour by card. Visa and Mastercard, through Stripe, with Apple Pay where the device offers it.",
+      "label": "Payment",
+      "heading": "Pay for the day",
+      "summary": "Your booking",
+      "card": "Card",
+      "cardNumber": "Card number",
+      "expiry": "Expiry",
+      "cvc": "CVC",
+      "name": "Name on the card",
+      "applepay": "Pay with Apple Pay",
+      "or": "or pay by card",
+      "pay": "Pay",
+      "secure": "Visa and Mastercard, through Stripe",
+      "note": "Nothing is charged here — this is the design."
+    },
+    "booking": {
+      "title": "Booking confirmed — Tabimarket",
+      "description": "Your tour is booked and paid.",
+      "label": "Confirmed",
+      "heading": "You are booked",
+      "sub": "The operator has your booking and will write to you with the meeting point the week before.",
+      "reference": "Reference",
+      "account": "See it in your account",
+      "missing": "No booking under that reference."
+    },
+    "account": {
+      "title": "Your account — Tabimarket",
+      "description": "Your bookings, your details and the way out.",
+      "label": "Account",
+      "heading": "Your bookings",
+      "signedInAs": "Signed in as",
+      "signout": "Sign out",
+      "none": "No bookings yet. Every tour here runs a full day.",
+      "browse": "See every tour",
+      "when": "Date",
+      "people": "Travellers",
+      "paid": "Paid"
+    },
+    "signin": {
+      "title": "Sign in — Tabimarket",
+      "description": "Sign in to book a tour, see your bookings, or manage your listings.",
+      "label": "Sign in",
+      "heading": "Sign in",
+      "sub": "Travellers, operators and the Tabimarket team sign in here. Your bookings and your listings are behind this.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "noAccount": "No account yet?",
+      "register": "Create one",
+      "demo": "This is the design: any address signs you in."
+    },
+    "register": {
+      "title": "Create an account — Tabimarket",
+      "description": "Create a Tabimarket account to book tours or to list them.",
+      "label": "New account",
+      "heading": "Create an account",
+      "sub": "One account books tours. Tell us you run them and the operator dashboard opens too.",
+      "name": "Your name",
+      "email": "Email",
+      "password": "Password",
+      "role": "What brings you here",
+      "roleTraveller": "I want to book a tour",
+      "roleSupplier": "I run tours and want to list them",
+      "submit": "Create account",
+      "haveAccount": "Already have one?",
+      "signin": "Sign in"
+    },
+    "supplier": {
+      "title": "Operator dashboard — Tabimarket",
+      "description": "Your listings, your bookings and what is waiting for review.",
+      "label": "Operator",
+      "heading": "Your listings",
+      "new": "List a tour",
+      "listings": "Tour",
+      "status": "Status",
+      "price": "Price",
+      "dates": "Dates",
+      "bookings": "Bookings taken",
+      "figures": "This month",
+      "chart": "Bookings by month",
+      "payouts": "When operators are paid is waiting on the owner.",
+      "signin": "Sign in to see your listings."
+    },
+    "supplierNew": {
+      "title": "List a tour — Tabimarket",
+      "description": "Write the day, set the price and the dates, upload at least four photographs.",
+      "label": "New listing",
+      "heading": "List a tour",
+      "sub": "Submit it and someone here reads it before it goes live.",
+      "titleField": "Tour name",
+      "place": "Place",
+      "price": "Price per traveller, in yen",
+      "duration": "Length",
+      "fullDay": "Full day",
+      "summaryField": "What the day is",
+      "included": "What is included, one per line",
+      "dates": "Dates you can run it, one per line",
+      "photos": "Photographs",
+      "photoRule": "A listing needs at least four photographs before it can be submitted.",
+      "photoAdd": "Add a photograph",
+      "submit": "Submit for review",
+      "submitted": "Submitted. It is in the review queue.",
+      "blocked": "Add the remaining photographs to submit."
+    },
+    "admin": {
+      "title": "Back office — Tabimarket",
+      "description": "Review listings, and see every booking, operator and traveller.",
+      "label": "Back office",
+      "heading": "Waiting for review",
+      "queueEmpty": "Nothing waiting. Every listing is read before it goes live.",
+      "approve": "Approve",
+      "reject": "Reject",
+      "reason": "Reason for rejecting",
+      "reasonHint": "The operator is sent this, so say what to change.",
+      "approved": "Approved — live for travellers",
+      "rejected": "Rejected — sent back with your reason",
+      "bookings": "Every booking",
+      "operators": "Operators",
+      "travellers": "Travellers",
+      "figures": "At a glance",
+      "chart": "Bookings by month",
+      "columns": { "tour": "Tour", "operator": "Operator", "traveller": "Traveller", "date": "Date", "people": "People", "total": "Total", "status": "Status", "placed": "Booked" },
+      "open": "Review",
+      "signin": "Sign in to open the back office."
+    },
+    "contact": {
+      "title": "Contact — Tabimarket",
+      "description": "Write to Tabimarket about a booking, a listing or anything else.",
+      "label": "Contact",
+      "heading": "Write to us",
+      "sub": "About a booking, a date, or listing your tours. We read everything that comes in.",
+      "emailLabel": "Email",
+      "formHeading": "Send a message"
     }
   },
   "footer": {
-    "line": "Your business · District 1, Saigon"
+    "tagline": "Full-day tours across Japan, read before they list.",
+    "columns": [
+      { "heading": "Travellers", "links": [ { "label": "Every tour", "href": "/tours" }, { "label": "Photographs", "href": "/gallery" }, { "label": "Your account", "href": "/account" } ] },
+      { "heading": "Operators", "links": [ { "label": "Operator dashboard", "href": "/supplier" }, { "label": "List a tour", "href": "/supplier/new" } ] },
+      { "heading": "Tabimarket", "links": [ { "label": "Contact", "href": "/contact" }, { "label": "Sign in", "href": "/signin" } ] }
+    ],
+    "line": "Tabimarket — a marketplace for tours in Japan. Operators sell their own days here."
   },
-  "credits": {
-    "label": "Photos"
-  },
+  "credits": { "label": "Photos" },
   "contact": {
     "phone": "",
     "zalo": "",
-    "email": "",
+    "email": "hello@tabimarket.jp",
     "address": "",
     "hours": "",
-    "dock": {
-      "call": "Call us",
-      "zalo": "Message us on Zalo"
-    },
+    "dock": { "call": "Call us", "zalo": "Message us on Zalo" },
     "form": {
       "name": "Your name",
       "reply_to": "Phone or email",
       "message": "Your message",
-      "send": "Send",
+      "send": "Send message",
       "sending": "Sending…",
       "sent": "Thank you — we have your message and will answer soon.",
-      "offline": "This form is not connected yet — call or message us instead.",
-      "fields": {}
+      "offline": "This form is not connected yet — write to hello@tabimarket.jp instead.",
+      "fields": { "date": "A date you have in mind", "people": "How many are going" }
     }
   }
 }
