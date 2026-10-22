@@ -2,7 +2,7 @@
   { "id": "mount-fuji", "name": "Mount Fuji", "image": "/images/tall-fuji.jpg", "note": "Lakes, shrines and the mountain at dawn", "_source": "assumed" },
   { "id": "kyoto", "name": "Kyoto", "image": "/images/tall-kyoto.jpg", "note": "Bamboo, gates and the river path", "_source": "assumed" },
   { "id": "tokyo", "name": "Tokyo", "image": "/images/tall-tokyo.jpg", "note": "Old town by day, alleys after dark", "_source": "assumed" },
-  { "id": "osaka", "name": "Osaka", "image": "/images/osaka-street.jpg", "note": "Markets, street food and the canal", "_source": "assumed" },
-  { "id": "hokkaido", "name": "Hokkaido", "image": "/images/hokkaido-snow.jpg", "note": "Long roads, snow and lavender", "_source": "assumed" },
-  { "id": "nara", "name": "Nara", "image": "/images/nara-deer.jpg", "note": "The Great Buddha, deer and lantern paths", "_source": "assumed" }
+  { "id": "osaka", "name": "Osaka", "image": "/images/tall-osaka.jpg", "note": "Markets, street food and the canal", "_source": "assumed" },
+  { "id": "hokkaido", "name": "Hokkaido", "image": "/images/tall-hokkaido.jpg", "note": "Long roads, snow and lavender", "_source": "assumed" },
+  { "id": "nara", "name": "Nara", "image": "/images/tall-nara.jpg", "note": "The Great Buddha, deer and lantern paths", "_source": "assumed" }
 ]
