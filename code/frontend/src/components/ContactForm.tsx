@@ -50,8 +50,8 @@ export default function ContactForm({ fields = [], className = "" }: { fields?: 
   const input = "w-full rounded border border-field bg-ground px-4 py-3 text-ink";
   return (
     <form onSubmit={(e) => void submit(e)} className={`flex flex-col gap-4 ${className}`}>
-      <Field k="name"><input name="name" autoComplete="name" required className={input} /></Field>
-      <Field k="reply_to"><input name="reply_to" autoComplete="tel" required className={input} /></Field>
+      <Field k="name"><input id="contact-name" name="name" autoComplete="name" required className={input} /></Field>
+      <Field k="reply_to"><input id="contact-reply" name="reply_to" autoComplete="tel" required className={input} /></Field>
       {fields.map((f) => (
         <Field key={f.key} k={`fields.${f.key}`}><input name={f.key} type={f.type ?? "text"} className={input} /></Field>
       ))}
