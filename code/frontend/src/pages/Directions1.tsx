@@ -98,16 +98,6 @@ export default function Directions1() {
             ))}
           </div>
 
-          {also && (
-            <div className="d1__also">
-              <span className="d1__alsolab">Also that day</span>
-              <span className="d1__alsoplace">{also.place}</span>
-              <span className="d1__alsoname">{also.name}</span>
-              <span className="d1__alsoop">{also.operator} · {also.hours}</span>
-              <span className="d1__alsoprice">{yen(also.price)}</span>
-            </div>
-          )}
-
           <p className="d1__paid">
             <CreditCard size={15} strokeWidth={1.5} />
             Paid by card — Visa and Mastercard, and Apple Pay on the devices that offer it.
