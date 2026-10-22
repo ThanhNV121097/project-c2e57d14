@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { T, useContent } from "../editable";
 import { useCollection } from "../data";
 import { usePageMeta } from "../seo";
-import { useSession } from "../lib/session";
+import { useViewer } from "../lib/viewer";
 import Icon from "../components/Icon";
 import Bars from "../components/Bars";
 import Figures from "../components/Figures";
