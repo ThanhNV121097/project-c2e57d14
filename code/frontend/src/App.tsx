@@ -79,7 +79,7 @@ function Header() {
   }, [pathname]);
   const testid = (href: string) => `nav-${href.replace(/\//g, "") || "home"}`;
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-ground/95 backdrop-blur-[2px]">
+    <header className="sticky top-0 z-50 border-b border-line bg-ground">
       <div className="mx-auto flex h-[var(--header-h)] max-w-page items-center justify-between px-[var(--gutter)]">
         <Link to="/" aria-label={name}><Logo /></Link>
         <nav className="hidden items-center gap-[var(--space-8)] text-[14px] lg:flex">
