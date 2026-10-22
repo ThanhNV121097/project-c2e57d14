@@ -16,7 +16,7 @@ export default function Directions3() {
       <div className="d3__main">
         <div className="d3__bar">
           <span className="d3__mark">
-            <span style={{ color: "#6FD3A6" }}><Mark /></span>
+            <span className="d3__markglyph"><Mark /></span>
             Tabimarket
           </span>
           <nav className="d3__barlinks">
