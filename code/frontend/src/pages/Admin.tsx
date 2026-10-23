@@ -142,10 +142,15 @@ export default function Admin() {
                 <tr key={b.id} data-record={`bookings:${b.id}`} className="border-b border-line">
                   <td className="py-[var(--space-3)] text-ink">{tours.find((t) => t.id === b.tour)?.name ?? b.tour}</td>
                   <td className="py-[var(--space-3)] text-ink-soft">{b.traveller}</td>
-                  <td className="tabular py-[var(--space-3)] text-right text-ink-soft">{formatDate(b.date)}</td>
+                  <td className="tabular py-[var(--space-3)] text-right text-ink-soft">{formatDate(b.date, "medium")}</td>
                   <td className="tabular py-[var(--space-3)] text-right text-ink-soft">{b.people}</td>
                   <td className="tabular py-[var(--space-3)] text-right text-ink">{formatPrice(b.total, "JPY")}</td>
-                  <td className="py-[var(--space-3)] text-right text-ink-soft">{b.status}</td>
+                  <td className="py-[var(--space-3)] text-right text-ink-soft">
+                    <span className="inline-flex items-center gap-[var(--space-2)] text-[13px]">
+                      <span className={`inline-block h-2 w-2 shrink-0 rounded-[var(--radius-pill)] ${b.status === "paid" ? "bg-accent" : "bg-ink-soft"}`} />
+                      {b.status === "paid" ? states.paid : states.refunded}
+                    </span>
+                  </td>
                 </tr>
               ))}
             </tbody>
