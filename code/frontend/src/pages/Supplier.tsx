@@ -7,7 +7,7 @@ import Icon from "../components/Icon";
 import Bars from "../components/Bars";
 import Figures from "../components/Figures";
 import { formatPrice } from "../lib/format";
-import type { MetricRow, MonthRow, TourRow } from "../lib/tours";
+import type { MetricRow, MonthRow, OperatorRow, TourRow } from "../lib/tours";
 
 /** The operator's dashboard: their listings, their figures, their month. */
 export default function Supplier() {
