@@ -79,7 +79,7 @@ export default function Supplier() {
                 <td className="py-[var(--space-3)]">
                   <span className="inline-flex items-center gap-[var(--space-2)] text-[13px] text-ink-soft">
                     <span className={`inline-block h-2 w-2 rounded-[var(--radius-pill)] ${t.status === "approved" ? "bg-accent" : "bg-ink-soft"}`} />
-                    {t.status === "approved" ? "Live" : "In review"}
+                    {t.status === "approved" ? states.live : states.review}
                   </span>
                 </td>
                 <td className="tabular py-[var(--space-3)] text-right text-ink-soft">{t.dates.length}</td>
