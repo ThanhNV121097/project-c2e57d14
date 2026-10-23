@@ -19,6 +19,7 @@ export interface TourRow {
 export interface OperatorRow {
   id: string;
   name: string;
+  email: string;
   base: string;
   since: number;
   blurb: string;
