@@ -20,7 +20,7 @@ export default function Contact() {
 
       <div className="mt-[var(--space-8)] flex flex-col gap-[var(--space-12)] lg:flex-row lg:gap-[var(--space-16)]">
         <div className="lg:w-3/5">
-          <T k="pages.contact.formHeading" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
+          <SectionHead narrow label="pages.contact.formLabel" heading="pages.contact.formHeading" />
           <ContactForm
             className="mt-[var(--space-6)] max-w-[30rem]"
             fields={[{ key: "date", type: "date" }, { key: "people", type: "number" }]}
