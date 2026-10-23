@@ -243,7 +243,7 @@
     "columns": [
       { "heading": "Travellers", "links": [ { "label": "Every tour", "href": "/tours" }, { "label": "Photographs", "href": "/gallery" }, { "label": "Your account", "href": "/account" } ] },
       { "heading": "Operators", "links": [ { "label": "Operator dashboard", "href": "/supplier" }, { "label": "List a tour", "href": "/supplier/new" } ] },
-      { "heading": "Tabimarket", "links": [ { "label": "Contact", "href": "/contact" }, { "label": "Sign in", "href": "/signin" } ] }
+      { "heading": "Tabimarket", "links": [ { "label": "Contact", "href": "/contact" }, { "label": "Back office", "href": "/admin" }, { "label": "Sign in", "href": "/signin" } ] }
     ],
     "line": "Tabimarket — a marketplace for tours in Japan. Operators sell their own days here."
   },
