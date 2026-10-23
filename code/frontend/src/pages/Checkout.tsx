@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { T, useContent } from "../editable";
-import { useRecord } from "../data";
+import { useCollection, useRecord } from "../data";
 import { usePageMeta } from "../seo";
 import { useSession } from "../lib/session";
 import { useDemo } from "../lib/demo";
