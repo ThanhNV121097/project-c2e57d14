@@ -4,6 +4,7 @@ import { useRecord } from "../data";
 import { usePageMeta } from "../seo";
 import { Picture } from "../picture";
 import Icon from "../components/Icon";
+import SectionHead from "../components/SectionHead";
 import { formatDate, formatPrice } from "../lib/format";
 import type { OperatorRow, TourRow } from "../lib/tours";
 
