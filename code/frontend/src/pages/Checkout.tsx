@@ -60,10 +60,14 @@ export default function Checkout() {
     );
   }
 
+  // The confirmation shows the booking just paid for: the one on record for
+  // this tour, so a visitor who paid for Nara is not confirmed into Fuji.
+  const confirmed = bookings.find((b) => b.tour === item.id) ?? bookings[0];
+
   function finish() {
     setPaying(true);
     clearDraft();
-    window.setTimeout(() => navigate("/booking/bk-2411"), 400);
+    window.setTimeout(() => navigate(`/booking/${confirmed?.id ?? ""}`), 400);
   }
 
   const field = "w-full border border-field bg-ground px-[var(--space-4)] py-[var(--space-3)] text-[15px] text-ink";
