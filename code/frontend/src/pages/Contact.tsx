@@ -2,6 +2,7 @@ import { T, useContent } from "../editable";
 import { usePageMeta } from "../seo";
 import { Picture } from "../picture";
 import Icon from "../components/Icon";
+import SectionHead from "../components/SectionHead";
 import ContactForm from "../components/ContactForm";
 
 /** The owner's own details, and a message form with a booking's questions. */
