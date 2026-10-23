@@ -30,7 +30,11 @@ export default function Supplier() {
     );
   }
 
-  const mine = tours.filter((t) => t.operator === "kita-line-tours" || t.operator === "rakusai-walks");
+  // The operator signed in — matched on the address in their record; while the
+  // design is being drawn or walked there is no real session, so the first
+  // operator stands in rather than an empty table.
+  const me = operators.find((o) => o.email === session.email) ?? operators[0];
+  const mine = me ? tours.filter((t) => t.operator === me.id) : [];
   return (
     <div className="mx-auto max-w-page px-[var(--gutter)] py-[var(--space-12)]">
       <div className="flex flex-col gap-[var(--space-4)] border-b border-line pb-[var(--space-8)] lg:flex-row lg:items-end lg:justify-between">
