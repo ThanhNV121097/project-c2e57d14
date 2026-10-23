@@ -62,9 +62,9 @@ export default function Tour() {
           <div className="max-w-[56ch] lg:w-3/5">
             <p className="text-[17px] leading-relaxed text-ink">{item.summary}</p>
 
-            <h2 className="mt-[var(--space-12)] border-t border-line pt-[var(--space-6)] text-[length:var(--size-h2)] text-ink">
-              <T k="pages.tour.included" />
-            </h2>
+            <div className="mt-[var(--space-12)]">
+              <SectionHead narrow label="pages.tour.includedLabel" heading="pages.tour.included" />
+            </div>
             <ul className="mt-[var(--space-4)] grid gap-[var(--space-3)] sm:grid-cols-2">
               {item.included.map((inc) => (
                 <li key={inc} className="flex items-start gap-[var(--space-2)] text-[14px] text-ink-soft">
