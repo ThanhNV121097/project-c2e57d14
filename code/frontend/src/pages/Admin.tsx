@@ -32,6 +32,7 @@ export default function Admin() {
   const approve = useContent("pages.admin.approve");
   const reject = useContent("pages.admin.reject");
   const review = useContent("pages.admin.open");
+  const states = useContent<{ paid: string; refunded: string }>("pages.admin.states");
 
   if (!session) {
     return (
