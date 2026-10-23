@@ -173,7 +173,10 @@
       "dates": "Dates",
       "bookings": "Bookings taken",
       "figures": "This month",
+      "figuresLabel": "At a glance",
       "chart": "Bookings by month",
+      "chartLabel": "Trade",
+      "listingsLabel": "Your tours",
       "states": { "live": "Live", "review": "In review" },
       "payouts": "When operators are paid is waiting on the owner.",
       "signin": "Sign in to see your listings."
