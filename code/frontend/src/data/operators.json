@@ -1,7 +1,7 @@
 [
-  { "id": "asagiri-tours", "name": "Asagiri Tours", "base": "Fujiyoshida", "since": 2014, "blurb": "Four drivers and two guides working the Fuji lakes. They will not run a sunrise day if the forecast says cloud below 900 metres.", "_source": "assumed" },
-  { "id": "rakusai-walks", "name": "Rakusai Walks", "base": "Kyoto", "since": 2011, "blurb": "Walking guides in Kyoto and Nara. Every day is on foot and local trains, with a maximum of eight people.", "_source": "assumed" },
-  { "id": "yomichi-guides", "name": "Yomichi Guides", "base": "Tokyo", "since": 2018, "blurb": "Tokyo guides who work the old wards by day and the alleys after dark.", "_source": "assumed" },
-  { "id": "kuidaore-walks", "name": "Kuidaore Walks", "base": "Osaka", "since": 2016, "blurb": "Food guides in Osaka. They book the stops the day before so nobody queues.", "_source": "assumed" },
-  { "id": "kita-line-tours", "name": "Kita Line Tours", "base": "Sapporo", "since": 2009, "blurb": "Cars and drivers across Hokkaido and northern Honshu, in summer and in snow.", "_source": "assumed" }
+  { "id": "asagiri-tours", "name": "Asagiri Tours", "email": "asagiri@example.jp", "base": "Fujiyoshida", "since": 2014, "blurb": "Four drivers and two guides working the Fuji lakes. They will not run a sunrise day if the forecast says cloud below 900 metres.", "_source": "assumed" },
+  { "id": "rakusai-walks", "name": "Rakusai Walks", "email": "rakusai@example.jp", "base": "Kyoto", "since": 2011, "blurb": "Walking guides in Kyoto and Nara. Every day is on foot and local trains, with a maximum of eight people.", "_source": "assumed" },
+  { "id": "yomichi-guides", "name": "Yomichi Guides", "email": "yomichi@example.jp", "base": "Tokyo", "since": 2018, "blurb": "Tokyo guides who work the old wards by day and the alleys after dark.", "_source": "assumed" },
+  { "id": "kuidaore-walks", "name": "Kuidaore Walks", "email": "kuidaore@example.jp", "base": "Osaka", "since": 2016, "blurb": "Food guides in Osaka. They book the stops the day before so nobody queues.", "_source": "assumed" },
+  { "id": "kita-line-tours", "name": "Kita Line Tours", "email": "kitaline@example.jp", "base": "Sapporo", "since": 2009, "blurb": "Cars and drivers across Hokkaido and northern Honshu, in summer and in snow.", "_source": "assumed" }
 ]
