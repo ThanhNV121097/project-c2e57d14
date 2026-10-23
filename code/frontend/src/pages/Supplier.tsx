@@ -18,6 +18,7 @@ export default function Supplier() {
   const { items: metrics } = useCollection<MetricRow>("metrics", { pageSize: 8 });
   const { items: months } = useCollection<MonthRow>("months", { pageSize: 12 });
   const newLabel = useContent("pages.supplier.new");
+  const states = useContent<{ live: string; review: string }>("pages.supplier.states");
 
   if (!session) {
     return (
