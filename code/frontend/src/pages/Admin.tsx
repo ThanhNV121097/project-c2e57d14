@@ -118,13 +118,13 @@ export default function Admin() {
       </section>
 
       <section className="mt-[var(--space-12)]">
-        <T k="pages.admin.figures" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
-        <div className="mt-[var(--space-4)]"><Figures metrics={metrics} /></div>
+        <SectionHead label="pages.admin.figuresLabel" heading="pages.admin.figures" />
+        <div className="mt-[var(--space-6)]"><Figures metrics={metrics} /></div>
         <div className="mt-[var(--space-8)]"><Bars months={months} /></div>
       </section>
 
       <section className="mt-[var(--space-12)]">
-        <T k="pages.admin.bookings" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
+        <SectionHead label="pages.admin.bookingsLabel" heading="pages.admin.bookings" />
         <div className="mt-[var(--space-4)] overflow-x-auto">
           <table className="w-full min-w-[40rem] border-collapse text-[14px]">
             <thead>
