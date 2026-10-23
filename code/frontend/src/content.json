@@ -239,6 +239,7 @@
       "heading": "Write to us",
       "sub": "About a booking, a date, or listing your tours. We read everything that comes in.",
       "emailLabel": "Email",
+      "formLabel": "Write",
       "formHeading": "Send a message"
     }
   },
