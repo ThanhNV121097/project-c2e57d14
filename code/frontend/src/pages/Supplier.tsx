@@ -50,17 +50,17 @@ export default function Supplier() {
       </div>
 
       <section className="mt-[var(--space-8)]">
-        <T k="pages.supplier.figures" as="h2" className="text-[length:var(--size-h2)] text-ink" />
-        <div className="mt-[var(--space-4)]"><Figures metrics={metrics} /></div>
+        <SectionHead label="pages.supplier.figuresLabel" heading="pages.supplier.figures" />
+        <div className="mt-[var(--space-6)]"><Figures metrics={metrics} /></div>
       </section>
 
       <section className="mt-[var(--space-12)]">
-        <T k="pages.supplier.chart" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
+        <SectionHead label="pages.supplier.chartLabel" heading="pages.supplier.chart" />
         <div className="mt-[var(--space-6)]"><Bars months={months} /></div>
       </section>
 
       <section className="mt-[var(--space-12)]">
-        <T k="pages.supplier.heading" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
+        <SectionHead label="pages.supplier.listingsLabel" heading="pages.supplier.heading" />
         <table className="mt-[var(--space-4)] w-full border-collapse text-[14px]">
           <thead>
             <tr className="border-b border-line text-left text-[11px] uppercase tracking-[0.14em] text-ink-soft">
