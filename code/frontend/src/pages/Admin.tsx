@@ -181,8 +181,7 @@ export default function Admin() {
       </div>
 
       <section className="mt-[var(--space-12)]">
-        <T k="pages.admin.terms" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
-        <T k="pages.admin.termsSub" as="p" className="mt-[var(--space-3)] max-w-[56ch] text-[14px] leading-relaxed text-ink-soft" />
+        <SectionHead label="pages.admin.termsLabel" heading="pages.admin.terms" sub="pages.admin.termsSub" />
         <ul className="mt-[var(--space-6)] flex flex-col">
           {terms.map((t) => (
             <li key={t.id} data-record={`terms:${t.id}`} className="flex flex-col gap-[var(--space-2)] border-b border-line py-[var(--space-4)] sm:flex-row sm:items-baseline sm:justify-between sm:gap-[var(--space-8)]">
