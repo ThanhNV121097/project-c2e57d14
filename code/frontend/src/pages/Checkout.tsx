@@ -8,7 +8,8 @@ import { useDemo } from "../lib/demo";
 import Icon from "../components/Icon";
 import { Picture } from "../picture";
 import { formatDate, formatPrice } from "../lib/format";
-import { clearDraft, readDraft, type Draft, type TourRow } from "../lib/tours";
+import SectionHead from "../components/SectionHead";
+import { clearDraft, readDraft, type BookingRow, type Draft, type TourRow } from "../lib/tours";
 
 /**
  * The booking being paid for: what the visitor chose, or — when the page is
