@@ -76,9 +76,9 @@ export default function Tour() {
 
             {rest.length >= 2 && (
               <>
-                <h2 className="mt-[var(--space-12)] border-t border-line pt-[var(--space-6)] text-[length:var(--size-h2)] text-ink">
-                  <T k="pages.tour.photos" />
-                </h2>
+                <div className="mt-[var(--space-12)]">
+                  <SectionHead narrow label="pages.tour.photosLabel" heading="pages.tour.photos" />
+                </div>
                 <div className="mt-[var(--space-4)] flex gap-[var(--space-3)]">
                   <div className="aspect-[4/3] w-2/3 overflow-hidden bg-surface">
                     <Picture src={rest[0]} alt={`${item.name} — ${item.place}`} caption={item.name} className="h-full w-full object-cover" />
