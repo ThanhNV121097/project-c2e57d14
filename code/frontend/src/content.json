@@ -65,6 +65,8 @@
       "meeting": "Meeting point",
       "operator": "Run by",
       "book": "Choose a date",
+      "includedLabel": "In the price",
+      "photosLabel": "From the operator",
       "photos": "Photographs",
       "approved": "Read and approved by Tabimarket",
       "missing": "That tour is not here. See every tour."
