@@ -74,7 +74,7 @@ export default function Tour() {
               ))}
             </ul>
 
-            {rest.length > 0 && (
+            {rest.length >= 2 && (
               <>
                 <h2 className="mt-[var(--space-12)] border-t border-line pt-[var(--space-6)] text-[length:var(--size-h2)] text-ink">
                   <T k="pages.tour.photos" />
@@ -84,9 +84,14 @@ export default function Tour() {
                     <Picture src={rest[0]} alt={`${item.name} — ${item.place}`} caption={item.name} className="h-full w-full object-cover" />
                   </div>
                   <div className="aspect-[2/3] w-1/3 overflow-hidden bg-surface">
-                    <Picture src={rest[1] ?? ""} alt={`${item.name} — ${item.place}`} caption={item.name} className="h-full w-full object-cover" />
+                    <Picture src={rest[1]} alt={`${item.name} — ${item.place}`} caption={item.name} className="h-full w-full object-cover" />
                   </div>
                 </div>
+                {rest.slice(2).map((photo) => (
+                  <div key={photo} className="mt-[var(--space-3)] aspect-[16/9] w-full overflow-hidden bg-surface">
+                    <Picture src={photo} alt={`${item.name} — ${item.place}`} caption={item.name} className="h-full w-full object-cover" />
+                  </div>
+                ))}
               </>
             )}
           </div>
