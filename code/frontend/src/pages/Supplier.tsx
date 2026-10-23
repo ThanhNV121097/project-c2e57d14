@@ -4,6 +4,7 @@ import { useCollection } from "../data";
 import { usePageMeta } from "../seo";
 import { useViewer } from "../lib/viewer";
 import Icon from "../components/Icon";
+import SectionHead from "../components/SectionHead";
 import Bars from "../components/Bars";
 import Figures from "../components/Figures";
 import { formatPrice } from "../lib/format";
