@@ -106,6 +106,8 @@
       "applepay": "Pay with Apple Pay",
       "or": "or pay by card",
       "pay": "Pay",
+      "cardLabel": "Card",
+      "cardHeading": "How you are paying",
       "secure": "Visa and Mastercard, through Stripe",
       "note": "Nothing is charged here — this is the design."
     },
