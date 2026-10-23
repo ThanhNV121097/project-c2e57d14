@@ -22,6 +22,7 @@
       "label": "Operators",
       "fields": [
         { "key": "name", "label": "Operator", "type": "text" },
+        { "key": "email", "label": "Sign-in address", "type": "text" },
         { "key": "base", "label": "Based in", "type": "text" },
         { "key": "since", "label": "Listing since", "type": "number" },
         { "key": "blurb", "label": "About the operator", "type": "longtext" }
