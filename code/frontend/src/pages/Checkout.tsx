@@ -76,6 +76,9 @@ export default function Checkout() {
 
       <div className="mt-[var(--space-8)] flex flex-col gap-[var(--space-12)] lg:flex-row lg:gap-[var(--space-16)]">
         <form className="lg:w-3/5" onSubmit={(e) => { e.preventDefault(); finish(); }}>
+          <div className="mb-[var(--space-6)]">
+            <SectionHead narrow label="pages.checkout.cardLabel" heading="pages.checkout.cardHeading" />
+          </div>
           <button type="button" data-testid="apple-pay" className="flex w-full items-center justify-center gap-[var(--space-2)] border border-line bg-surface px-[var(--space-6)] py-[var(--space-4)] text-[15px] text-ink hover:border-accent">
             <Icon name="wallet" size={18} />
             {applepay}
