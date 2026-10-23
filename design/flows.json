@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Book and pay for a tour",
+    "auth": true,
+    "steps": [
+      { "action": "open", "path": "/tours/fuji-five-lakes" },
+      { "action": "click", "selector": "[data-testid='tour-book']" },
+      { "action": "type", "selector": "#people", "value": "2" },
+      { "action": "expect", "selector": "[data-testid='booking-total']", "text": "37,000" },
+      { "action": "click", "selector": "[data-testid='booking-continue']" },
+      { "action": "click", "selector": "[data-testid='pay-now']" },
+      { "action": "expect", "selector": "[data-testid='booking-reference']", "text": "Tabimarket" }
+    ]
+  },
+  {
+    "name": "Find a tour by place",
+    "steps": [
+      { "action": "open", "path": "/" },
+      { "action": "click", "selector": "[data-testid='nav-tours']" },
+      { "action": "click", "selector": "[data-testid='filter-kyoto']" },
+      { "action": "expect", "selector": "[data-testid='tour-count']", "text": "Kyoto" }
+    ]
+  },
+  {
+    "name": "A supplier submits a tour",
+    "auth": true,
+    "steps": [
+      { "action": "open", "path": "/supplier" },
+      { "action": "click", "selector": "[data-testid='supplier-new']" },
+      { "action": "type", "selector": "#title", "value": "Lake Kawaguchi at first light" },
+      { "action": "type", "selector": "#price", "value": "18500" },
+      { "action": "click", "selector": "[data-testid='submit-tour']" },
+      { "action": "expect", "selector": "[data-testid='photo-rule']", "text": "four photographs" }
+    ]
+  },
+  {
+    "name": "An admin approves a listing",
+    "auth": true,
+    "steps": [
+      { "action": "open", "path": "/admin" },
+      { "action": "click", "selector": "[data-testid='review-ginzan-snow']" },
+      { "action": "click", "selector": "[data-testid='approve-listing']" },
+      { "action": "expect", "selector": "[data-testid='review-result']", "text": "Approved" }
+    ]
+  },
+  {
+    "name": "Send a message",
+    "steps": [
+      { "action": "open", "path": "/contact" },
+      { "action": "type", "selector": "#contact-name", "value": "Ana Ruiz" },
+      { "action": "expect", "selector": "[data-testid='contact-email']", "text": "hello@tabimarket.jp" }
+    ]
+  }
+]

@@ -1,3 +1,75 @@
 {
-  "collections": {}
+  "collections": {
+    "tours": {
+      "label": "Tours",
+      "fields": [
+        { "key": "name", "label": "Tour name", "type": "text" },
+        { "key": "place", "label": "Place", "type": "text" },
+        { "key": "operator", "label": "Operator", "type": "ref:operators" },
+        { "key": "price", "label": "Price per traveller", "type": "price", "currency": "JPY" },
+        { "key": "duration", "label": "Length", "type": "text" },
+        { "key": "starts", "label": "Start time", "type": "text" },
+        { "key": "summary", "label": "What the day is", "type": "longtext" },
+        { "key": "meeting", "label": "Meeting point", "type": "text" },
+        { "key": "image", "label": "Main photograph", "type": "image" },
+        { "key": "photos", "label": "Photographs (four minimum)", "type": "list" },
+        { "key": "included", "label": "What is included", "type": "list" },
+        { "key": "dates", "label": "Dates the operator set", "type": "list" },
+        { "key": "status", "label": "Review status", "type": "text" }
+      ]
+    },
+    "operators": {
+      "label": "Operators",
+      "fields": [
+        { "key": "name", "label": "Operator", "type": "text" },
+        { "key": "email", "label": "Sign-in address", "type": "text" },
+        { "key": "base", "label": "Based in", "type": "text" },
+        { "key": "since", "label": "Listing since", "type": "number" },
+        { "key": "blurb", "label": "About the operator", "type": "longtext" }
+      ]
+    },
+    "places": {
+      "label": "Places",
+      "fields": [
+        { "key": "name", "label": "Place", "type": "text" },
+        { "key": "image", "label": "Photograph", "type": "image" },
+        { "key": "note", "label": "What it is for", "type": "text" }
+      ]
+    },
+    "bookings": {
+      "label": "Bookings",
+      "fields": [
+        { "key": "tour", "label": "Tour", "type": "ref:tours" },
+        { "key": "traveller", "label": "Traveller", "type": "text" },
+        { "key": "date", "label": "Tour date", "type": "text" },
+        { "key": "people", "label": "Travellers", "type": "number" },
+        { "key": "total", "label": "Total paid", "type": "price", "currency": "JPY" },
+        { "key": "status", "label": "Status", "type": "text" },
+        { "key": "placed", "label": "Booked on", "type": "text" }
+      ]
+    },
+    "metrics": {
+      "label": "Dashboard figures",
+      "fields": [
+        { "key": "label", "label": "Figure", "type": "text" },
+        { "key": "value", "label": "Value", "type": "number" },
+        { "key": "unit", "label": "Currency, if it is money", "type": "text" },
+        { "key": "change", "label": "Change on the month, %", "type": "number" }
+      ]
+    },
+    "months": {
+      "label": "Bookings by month",
+      "fields": [
+        { "key": "month", "label": "Month", "type": "text" },
+        { "key": "bookings", "label": "Bookings", "type": "number" }
+      ]
+    },
+    "terms": {
+      "label": "Terms the owner still has to decide",
+      "fields": [
+        { "key": "question", "label": "Question", "type": "text" },
+        { "key": "answer", "label": "The owner's answer", "type": "longtext" }
+      ]
+    }
+  }
 }

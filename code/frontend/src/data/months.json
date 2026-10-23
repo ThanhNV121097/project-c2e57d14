@@ -1,0 +1,8 @@
+[
+  { "id": "m-09", "month": "Sep", "bookings": 18, "_source": "assumed" },
+  { "id": "m-10", "month": "Oct", "bookings": 24, "_source": "assumed" },
+  { "id": "m-11", "month": "Nov", "bookings": 31, "_source": "assumed" },
+  { "id": "m-12", "month": "Dec", "bookings": 27, "_source": "assumed" },
+  { "id": "m-01", "month": "Jan", "bookings": 39, "_source": "assumed" },
+  { "id": "m-02", "month": "Feb", "bookings": 46, "_source": "assumed" }
+]

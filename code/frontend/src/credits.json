@@ -1,1 +1,240 @@
-[]
+[
+  {
+    "path": "/images/fuji-clouds.jpg",
+    "author": "Kanenori",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/mt-fuji-volcano-silhouettes-clouds-2232246/"
+  },
+  {
+    "path": "/images/fuji-pagoda.jpg",
+    "author": "oadtz",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/fuji-mount-pagoda-japan-mountain-1897715/"
+  },
+  {
+    "path": "/images/fuji-springs.jpg",
+    "author": "DeltaWorks",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/japan-garden-japan-spring-water-197174/"
+  },
+  {
+    "path": "/images/fuji-sunrise.jpg",
+    "author": "Kanenori",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/mount-fuji-japan-volcano-mountain-2297961/"
+  },
+  {
+    "path": "/images/ginzan-bath.jpg",
+    "author": "akiraorc",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/japan-spa-noboribetsu-outdoor-2103868/"
+  },
+  {
+    "path": "/images/ginzan-onsen.jpg",
+    "author": "AG2016",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/japan-hot-spring-ryokan-yamagata-1366872/"
+  },
+  {
+    "path": "/images/ginzan-road.jpg",
+    "author": "rockickmusic",
+    "source": "Openverse",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/55099797@N03/5203407105"
+  },
+  {
+    "path": "/images/ginzan-street.jpg",
+    "author": "NguyenGianga2",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/road-street-buildings-old-town-7704729/"
+  },
+  {
+    "path": "/images/hokkaido-blue-pond.jpg",
+    "author": "mutomasataka",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/blue-pond-light-up-biei-blue-wood-1079433/"
+  },
+  {
+    "path": "/images/hokkaido-furano.jpg",
+    "author": "5336885",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/hokkaido-furano-lavender-desktop-2579186/"
+  },
+  {
+    "path": "/images/hokkaido-lavender.jpg",
+    "author": "yunikim",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/furano-biei-hokkaido-farm-tomita-1566163/"
+  },
+  {
+    "path": "/images/hokkaido-snow.jpg",
+    "author": "pen_ash",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/snow-winter-nature-landscape-cold-10134653/"
+  },
+  {
+    "path": "/images/kyoto-bamboo-wide.jpg",
+    "author": "Kanenori",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/bamboo-forest-bamboo-snow-kyoto-6898674/"
+  },
+  {
+    "path": "/images/kyoto-bamboo.jpg",
+    "author": "hirobi",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/bamboo-nature-forest-japan-chill-2497179/"
+  },
+  {
+    "path": "/images/kyoto-saga-street.jpg",
+    "author": "kotaeche",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/street-road-buildings-japan-kyoto-7717463/"
+  },
+  {
+    "path": "/images/kyoto-torii.jpg",
+    "author": "darkness_s",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/fushimi-inari-taisha-senbon-torii-8066622/"
+  },
+  {
+    "path": "/images/nara-deer.jpg",
+    "author": "pen_ash",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/sika-deer-deer-inquisitive-curious-7868590/"
+  },
+  {
+    "path": "/images/nara-lanterns.jpg",
+    "author": "pen_ash",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/pathway-path-nigatsudo-hall-7835375/"
+  },
+  {
+    "path": "/images/nara-tea.jpg",
+    "author": "mirkostoedter",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/sencha-green-tea-pottery-tea-7807228/"
+  },
+  {
+    "path": "/images/nara-todaiji.jpg",
+    "author": "pen_ash",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/todaiji-temple-temple-main-hall-7835333/"
+  },
+  {
+    "path": "/images/osaka-crossing.jpg",
+    "author": "MasashiWakui",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/japan-osaka-pedestrians-crossing-2014616/"
+  },
+  {
+    "path": "/images/osaka-dotonbori.jpg",
+    "author": "gabyobs",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/japan-osaka-dotombori-evening-4549082/"
+  },
+  {
+    "path": "/images/osaka-food.jpg",
+    "author": "binmassam",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/chef-cooking-street-costumer-4807317/"
+  },
+  {
+    "path": "/images/osaka-street.jpg",
+    "author": "manseok_Kim",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/street-night-view-city-night-light-1218809/"
+  },
+  {
+    "path": "/images/tall-fuji.jpg",
+    "author": "Qunihico",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/fujiyama-lake-fuji-mountain-4452856/"
+  },
+  {
+    "path": "/images/tall-hokkaido.jpg",
+    "author": "Alef_photograph",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/winter-woods-tall-trees-snowy-ground-9935921/"
+  },
+  {
+    "path": "/images/tall-kyoto.jpg",
+    "author": "ChiemSeherin",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/japanese-shop-load-shopping-9511304/"
+  },
+  {
+    "path": "/images/tall-nara.jpg",
+    "author": "agmclellan",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/animal-antlers-asia-asian-cervid-5052757/"
+  },
+  {
+    "path": "/images/tall-osaka.jpg",
+    "author": "12019",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/osaka-japan-hdr-city-urban-2225441/"
+  },
+  {
+    "path": "/images/tall-tokyo.jpg",
+    "author": "yoonason23",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/street-autumn-japan-city-travel-6884534/"
+  },
+  {
+    "path": "/images/tokyo-night.jpg",
+    "author": "binmassam",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/city-japan-travel-tourism-asia-4807268/"
+  },
+  {
+    "path": "/images/tokyo-sensoji.jpg",
+    "author": "Keiji_M",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/a-a-city-asakusa-sensoji-temple-2526176/"
+  },
+  {
+    "path": "/images/tokyo-sumida.jpg",
+    "author": "kdsmatt",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/japan-river-sumida-city-bridge-4540433/"
+  },
+  {
+    "path": "/images/tokyo-yokocho.jpg",
+    "author": "16944022",
+    "source": "Pixabay",
+    "license": "Pixabay Content License",
+    "page": "https://pixabay.com/photos/night-tokyo-street-japan-urban-6876155/"
+  }
+]

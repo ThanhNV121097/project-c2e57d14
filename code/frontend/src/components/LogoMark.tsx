@@ -1,13 +1,13 @@
 /**
- * The design's mark, when the owner has no logo: a placeholder the design
- * replaces with one drawn for this business — a simple geometric SVG in
- * currentColor (a monogram, the shape of what they make), never a picture,
- * never generated text. public/favicon.svg is the same mark.
+ * Tabimarket's mark: a torii seen head on, drawn as three strokes — the two
+ * posts and the lintel that curves. The same shape is public/favicon.svg.
  */
 export default function LogoMark({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 32 32" className={className} aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2">
-      <circle cx="16" cy="16" r="13" />
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true" className={className}>
+      <path d="M2.5 4.2 12 2.6l9.5 1.6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M3.6 7.4h16.8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M6.4 4.6v16.8M17.6 4.6v16.8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
     </svg>
   );
 }
