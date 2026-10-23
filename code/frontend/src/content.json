@@ -222,6 +222,7 @@
       "termsLabel": "Open questions",
       "columns": { "tour": "Tour", "operator": "Operator", "traveller": "Traveller", "date": "Date", "people": "People", "total": "Total", "status": "Status", "placed": "Booked" },
       "open": "Review",
+      "states": { "paid": "Paid", "refunded": "Refunded" },
       "terms": "Still to decide",
       "termsSub": "Four rules the platform runs on that nobody has set yet. Write the answer beside each and the booking and payment pages follow it.",
       "termsEmpty": "Waiting on you",
