@@ -34,6 +34,7 @@ export default function Checkout() {
   const session = useSession();
   const demo = useDemo();
   const { item } = useRecord<TourRow>("tours", id);
+  const { items: bookings } = useCollection<BookingRow>("bookings", { pageSize: 12 });
   const [paying, setPaying] = useState(false);
   const pay = useContent("pages.checkout.pay");
   const applepay = useContent("pages.checkout.applepay");
