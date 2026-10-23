@@ -166,7 +166,7 @@ export default function Admin() {
           </ul>
         </section>
         <section className="lg:w-1/2">
-          <T k="pages.admin.travellers" as="h2" className="border-t border-line pt-[var(--space-4)] text-[length:var(--size-h2)] text-ink" />
+          <SectionHead narrow label="pages.admin.travellersLabel" heading="pages.admin.travellers" />
           <ul className="mt-[var(--space-4)] flex flex-col">
             {travellers.map((name) => (
               <li key={name} className="flex items-baseline justify-between gap-[var(--space-4)] border-b border-line py-[var(--space-3)] text-[14px]">
