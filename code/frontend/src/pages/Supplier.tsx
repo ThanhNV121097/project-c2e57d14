@@ -14,6 +14,7 @@ export default function Supplier() {
   usePageMeta("pages.supplier.title", "pages.supplier.description");
   const session = useViewer();
   const { items: tours } = useCollection<TourRow>("tours", { pageSize: 24 });
+  const { items: operators } = useCollection<OperatorRow>("operators", { pageSize: 12 });
   const { items: metrics } = useCollection<MetricRow>("metrics", { pageSize: 8 });
   const { items: months } = useCollection<MonthRow>("months", { pageSize: 12 });
   const newLabel = useContent("pages.supplier.new");
